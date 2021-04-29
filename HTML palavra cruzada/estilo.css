@@ -1,0 +1,72 @@
+/* Definindo background da página */
+body{
+    background-color: rgba(11, 5, 34);
+}
+
+/* Fim background da página */
+
+/* Começo do cabeçalho da página */
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.header{
+    background-color: black;
+}
+
+.texto{
+    color: rgb(207, 207, 238);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Fim cabeçalho da página */
+
+/* Começo cruzada */
+.regrasCruzada{
+    background-color: gray;
+}
+/* Fim cruzada */
+
+/* Começo cruzadinha */
+.cruzadinha{
+    background-color: white;
+    border-color: gray;
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* .tamanhoInput{
+    width: 5%;    
+} */
+
+.tabelaBorda{
+    width: 5%;
+    height: 8%;
+    border: 1px solid black;
+}
+.quadroPreto{
+    background-color: black;
+}
+
+.centralizar{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.botaoVerificar{
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+.botaoVerificar:hover{
+    background-color: black;
+    color: white;
+}
+/* Fim cruzadinha */
